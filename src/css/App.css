@@ -1,0 +1,28 @@
+html {
+  background-color: rgba(251, 138, 0, 0.582);
+}
+
+.app {
+  text-align: center;
+}
+
+
+.ul-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+.ul-menu li {
+  border: 1px solid #000;
+  padding: 0 10px; /* Убираем внутренний отступ и добавляем отступ слева и справа */
+}
+
+.ul-product {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
